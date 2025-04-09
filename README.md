@@ -1,14 +1,21 @@
 # EXP.NO.7-Simulation-of-Digital-Modulation-Techniques
-Simulation of Digital Modulation Techniques Such as i) Amplitude Shift Keying (ASK) ii) Frequency Shift Keying (FSK) iii) Phase Shift Keying (PSK)
-AIM
+
+ 7.Simulation of Digital Modulation Techniques Such as
+   i) Amplitude Shift Keying (ASK)
+   ii) Frequency Shift Keying (FSK)
+   iii) Phase Shift Keying (PSK)
+
+# AIM
 To simulate digital modulation techniques such as:
 
-Amplitude Shift Keying (ASK) Frequency Shift Keying (FSK) Phase Shift Keying (PSK)
+Amplitude Shift Keying (ASK)
+Frequency Shift Keying (FSK)
+Phase Shift Keying (PSK)
 
-SOFTWARE REQUIRED
+# SOFTWARE REQUIRED
 python (Google Colab)
 
-ALGORITHMS
+# ALGORITHMS
 #Amplitude Shift Keying (ASK)
 
 1.Define a binary input signal (e.g., [1, 0, 1, 1, 0]).
@@ -19,7 +26,8 @@ ALGORITHMS
 
 4.Plot the input signal, carrier, and ASK signal.
 
-Frequency Shift Keying (FSK)
+# Frequency Shift Keying (FSK)
+
 1.Define two carrier frequencies: one for bit 1, another for bit 0.
 
 2.Multiply bit 1 with one frequency, bit 0 with the other.
@@ -28,7 +36,7 @@ Frequency Shift Keying (FSK)
 
 4.Plot the input signal and FSK signal.
 
-Phase Shift Keying (PSK)
+# Phase Shift Keying (PSK)
 1.Use a single frequency carrier.
 
 2.For bit 1, send the signal with phase 0.
@@ -37,7 +45,8 @@ Phase Shift Keying (PSK)
 
 4.Plot the input signal and PSK signal.
 
-PROGRAM
+# PROGRAM
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -118,8 +127,10 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
-OUTPUT
-image
+```
+# OUTPUT
+![image](https://github.com/user-attachments/assets/d0499c95-a603-44b2-8eb8-2e4de6547425)
 
-RESULT / CONCLUSIONS
+ 
+# RESULT / CONCLUSIONS
 The simulation of digital modulation techniques such as ASK, FSK, and PSK was successfully implemented using Python and the waveform is obtained.
